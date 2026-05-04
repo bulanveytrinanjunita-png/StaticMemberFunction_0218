@@ -46,3 +46,10 @@ void Mahasiswa::printAll()
     cout << "Nama : " << nama << endl;
     cout << endl;
 }
+
+int main()
+{
+
+    Mahasiswa mhs1("Sri Dadi");
+    Mahasiswa mhs2("Budi Jatmiko");
+};
