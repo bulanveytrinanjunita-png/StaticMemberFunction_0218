@@ -18,3 +18,29 @@ public:
         setID();
     }
 };
+
+// memberi value ke variabel nim dari class mahasiswa
+int Mahasiswa::nim = 10;
+
+// mengimplementasikan prosedur - prosedur di luar class
+void Mahasiswa::setID()
+{
+    id = ++nim;
+};
+
+void Mahasiswa::printAll()
+{
+
+    cout << "ID : " << id << endl;
+    cout << "Nama : " << nama << endl;
+    cout << endl;
+};
+
+int main()
+{
+
+    Mahasiswa mhs1("Lia Kurnia");
+    Mahasiswa mhs2("Asroni");
+    Mahasiswa mhs3("Andi Kurniawan");
+    Mahasiswa mhs4("Joko Purbo");
+}
